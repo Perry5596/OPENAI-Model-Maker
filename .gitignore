@@ -1,0 +1,6 @@
+# environment
+venv/
+.env
+
+# training examples
+*.jsonl
