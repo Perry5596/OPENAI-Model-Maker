@@ -48,7 +48,7 @@ def generate_example(prompt_description, prev_examples, temperature=0.5):
             })
 
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-4o",
         messages=messages,
         temperature=temperature,
         max_tokens=750,
