@@ -51,7 +51,7 @@ def generate_example(prompt_description, prev_examples, temperature=0.5):
         model="gpt-4o",
         messages=messages,
         temperature=temperature,
-        max_tokens=750,
+        max_tokens=1000,
     )
     return response.choices[0].message['content']
 
